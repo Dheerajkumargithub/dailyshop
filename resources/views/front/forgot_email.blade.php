@@ -1,0 +1,3 @@
+<h2>Welcome : {{$name}}</h2>
+<h3>Click here to change your Password</h3><br/>
+<a href="{{url('/forgot_password_change/'.$rand_id)}}">Click Here</a> For Change your Password...
